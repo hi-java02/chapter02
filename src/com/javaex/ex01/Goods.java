@@ -41,6 +41,11 @@ public class Goods {
 	public void showInfo() {
 		System.out.println("상품명: " + name + ",  가격:" + price );
 	}
+
+	@Override
+	public String toString() {
+		return "Goods [name=" + name + ", price=" + price + "]";
+	}
 	
 	
 	
