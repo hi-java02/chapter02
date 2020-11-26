@@ -19,10 +19,12 @@ public class GoodsApp {
 		System.out.println(cup.getTotalCount());
 		
 		
-		
 		camera.showInfo();
 		computer.showInfo();
 		cup.showInfo();
+		
+		
+		
 		
 	}
 
