@@ -55,6 +55,16 @@ public class PersonApp {
 		//s01.showInfo(); //부모쪽의 showInfo()를 사용할 수없다.
 		//1000명 관리중
 		
+		
+		Student s04 = new Student("이효리", 55, "제주고등학교");
+		
+		System.out.println("------------------------------");
+		Person c01 = s04;  //자동 업케스팅 
+		c01.showInfo();    //오버라이딩
+		System.out.println("------------------------------");
+		
+		//c01.getSchoolName() 사용할수 없음
+		
 	}
 
 }
