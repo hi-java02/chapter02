@@ -1,6 +1,6 @@
-package com.javaex.ex21;
+package com.javaex.ex22;
 
-public class Triangle extends Shape {
+public class Triangle extends Shape implements Drawable{
 	// 필드
 	private int width;
 	private int height;

@@ -1,4 +1,4 @@
-package com.javaex.ex21;
+package com.javaex.ex22;
 
 public abstract class Shape {
 
@@ -34,7 +34,7 @@ public abstract class Shape {
 
 	//메소드 일반
 	//draw()는 만들수 없음 --> 오버라이딩 이용
-	public abstract void draw();
+	//public abstract void draw();  //Drawable 개념을 이동
 	
 	public abstract double area();
 	

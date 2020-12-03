@@ -1,4 +1,4 @@
-package com.javaex.ex20;
+package com.javaex.ex21;
 
 public class ShapeApp {
 
@@ -15,9 +15,14 @@ public class ShapeApp {
 		//Circle c = new Circle("파랑", "파랑", 5);
 		Shape c01 = new Circle("초록", "초록", 500);
 		
+		//삼각형 만들기
+		//Triangle t = new Triangle("보라", "보라", 7, 7);
+		Triangle t01 = new Triangle("분홍", "분홍", 9, 9);
+		
 		//배열에 주소값 대입
 		sArray[0] = r01;
 		sArray[1] = c01;
+		sArray[2] = t01;
 		
 		//전부 그리기
 		for(int i=0; i<sArray.length; i++) {
